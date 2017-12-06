@@ -1,0 +1,34 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "gts check",
+    "clean": "gts clean",
+    "compile": "tsc -p .",
+    "fix": "gts fix",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinwoo/playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinwoo/playground/issues"
+  },
+  "homepage": "https://github.com/jinwoo/playground#readme",
+  "dependencies": {
+    "agpl-3.0": "^1.0.0"
+  },
+  "devDependencies": {
+    "gts": "^0.5.1",
+    "typescript": "^2.6.1"
+  }
+}
