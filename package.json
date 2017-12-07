@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/jinwoo/playground#readme",
   "dependencies": {
-    "pm2": "^2.8.0"
   },
   "devDependencies": {
     "gts": "^0.5.1",
