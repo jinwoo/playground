@@ -1,5 +1,6 @@
 {
   "packageWhitelist": [
-    "cli-table-redemption"
+    "cli-table-redemption",
+    "escape-regexp"
   ]
 }
