@@ -1,4 +1,7 @@
 {
+  "greenLicenses": [
+    "AGPL-3.0"
+  ],
   "packageWhitelist": [
     "cli-table-redemption",
     "escape-regexp"
